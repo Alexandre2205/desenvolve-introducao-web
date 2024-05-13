@@ -1,0 +1,34 @@
+/*alterando a cor do link quando passa o mouse por cima*/
+a:hover {
+    color: lime;
+}
+
+/*alterando a cor do link*/
+a {
+    color: red;
+}
+
+/*alterando a fonte dos paragrafos*/
+p {
+    font-family: 'Arial';
+}
+
+/*paragrafos após um h1 devem ficar em negrito*/
+h1 + p {
+    font-weight: bold;
+}
+
+/*criando uma classe "destaque" que muda a fonte para arial quando utilizada*/
+.destaque{
+    font-family: 'Arial';
+}
+
+/*se for utilizada em paragrafos os deixa em negrito*/
+p.destaque{
+    font-weight: bold;
+}
+
+/*se ja estiver em negrito fica em vermelho*/
+strong.destaque{
+    color: red;
+}
