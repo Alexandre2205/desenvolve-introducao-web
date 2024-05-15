@@ -1,0 +1,11 @@
+/*Color Theme Swatches in Hex 
+.Destaque { color: #012030; }
+.Principal { color: #13678A; }
+.Background{ color: #45C4B0; }
+.Poseidon-4-hex { color: #9AEBA3; }
+.Poseidon-5-hex { color: #DAFDBA; }*/
+
+html{
+    color: #13678A;
+    background-color: #DAFDBA;
+}
