@@ -1,0 +1,214 @@
+/*Color Theme Swatches in Hex 
+.Destaque { color: #012030; }
+.Principal { color: #13678A; }
+.Background{ color: #45C4B0; }
+.Poseidon-4-hex { color: #9AEBA3; }
+.Poseidon-5-hex { color: #DAFDBA; }*/
+
+/*Atividade 1 e 2*/
+html{
+    color: #13678A;
+    background-color: #DAFDBA;
+
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+p{
+    text-indent: 1em;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+h1{font-size: 1.8rem;}
+h2{font-size: 1.4rem;}
+h3{font-size: 1.2rem;}
+
+.sumary{text-align: center;}
+
+.main p {
+    line-height: 1.5;
+}
+
+abbr {font-variant: small-caps;}
+
+/*Atividade 3*/
+
+.page-wrapper{
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+}
+
+#zen-intro{
+    height: 550px;
+}
+
+#design-archives{
+    display: none;
+}
+
+#zen-intro header{
+    background-color: #012030;
+    color: #f1f7ec;
+}
+
+#zen-intro header h1, #zen-intro header h2{
+    display: inline-block;
+}
+
+#zen-intro header h1{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+aside ul{
+    list-style-type: none;
+}
+
+aside ul li{
+    margin: 1em;
+    text-align: center;
+}
+
+.main footer{
+    margin: 4%;
+}
+
+.main footer a{
+    border: solid 2px #012030;
+    padding: 0.5em;
+    display: inline-block;
+}
+
+/*Atividade 4*/
+
+.explanation{
+    width: 60%;
+    border-right: solid #012030;
+    padding-right: 2%;
+    /*padding-bottom: 40px;*/
+}
+
+#design-selection{
+    position: absolute;
+    top: 465px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+
+}
+/*Atividade 5*/
+
+.supporting footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.benefits{
+    display: flex;
+    border-top: #012030 solid 1px;
+
+}
+
+.benefits p{
+    flex-basis: 70%;
+
+}
+
+.benefits h3{
+    order: 2;
+    align-self: center;
+    flex-basis: 30%;
+}
+
+.participation{
+    display: flex;
+    flex-wrap: wrap;
+    border-top: #012030 solid 1px;
+    margin-top: 70px;
+}
+
+.participation h3, .participation p{
+    flex-basis: 50%;
+}
+
+.participation h3{
+    align-self: center;
+}
+
+/*Atividade 6*/
+
+a{
+    color:#012030;
+
+}
+a:hover{
+
+    color: #01203071;
+}
+
+.main p:first-of-type:first-letter{
+    font-size: 3em;
+    font-family: serif;
+    float: left;
+}
+
+.design-selection li{
+    border-top: #012030 solid 1px;
+    padding: 4px;
+}
+
+    .design-selection li:last-of-type{
+        border-bottom: #012030 solid 1px;
+        padding-bottom: 4px;
+    }
+
+    @media screen and (max-width: 768px) {
+        #design-selection{
+            position: static;
+            width: 100%;
+        }
+
+        .explanation{
+            border-right: none;
+            width: 100%;
+        }
+        #zen-intro{
+            height: auto;
+        }
+
+        .participation{
+            flex-direction: column;
+        }
+        
+        p{
+            text-indent: 0;
+        } 
+    
+        
+    }
+
+    @media print{
+        html{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #zen-intro header{
+            background-color: #f1f7ec;
+            color: #012030;
+        }
+
+        #design-selection{
+            position: static;
+            width: 100%;
+        }
+
+        .explanation{
+            border-right: none;
+            width: 100%;
+        }
+        
+    }
